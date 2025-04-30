@@ -27,7 +27,7 @@ form.addEventListener('submit', function (e) {
         result.innerHTML = `<span>you are under weight ${bmi}</span>`;
         
         }
-    else if (bmi>24.9){
+    else if (bmi<24.9){
         console.log(`you have perfect weight ${bmi}`);
         result.innerHTML = `<span>you have perfect  weight ${bmi}</span>`;
 
